@@ -1,0 +1,37 @@
+@font-face{
+    font-family:'italiana';
+    src: url('../fonts/Italiana/Italiana-Regular.ttf');
+}
+
+body{
+    background-color: white;
+    display: flex;
+}
+
+nav{
+    text-align: left;
+}
+
+nav a:link{
+    color: black;
+    font-family: 'italiana', serif;
+    list-style-type: none;
+}
+
+nav a:hover{
+    color: black;
+    font-family: 'italiana', serif;
+    list-style-type: none;
+    cursor: crosshair;
+}
+
+nav a:visited{
+    color: black;
+    font-family: 'italiana', serif;
+    list-style-type: none;
+}
+
+header img{
+    justify-content: center;
+    align-self: center;
+}
