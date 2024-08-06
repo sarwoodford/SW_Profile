@@ -271,7 +271,7 @@ aside a:visited{
 
 .contactCont{
     width: 1500px;
-    height: 400px; 
+    height: 300px; 
     background-color: white;
     border: 5px solid black;
     margin: 0 auto;
@@ -282,7 +282,8 @@ aside a:visited{
     float: left;
     width: 150px;
     height: 150px;
-    margin: 110px;
+    margin: 170px;
+    margin-top: 80px;
 }
 
 .emailCont{
@@ -291,18 +292,27 @@ aside a:visited{
     align-items: center;
     flex-direction: column;
     width: 1500px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    border: 5px solid black;
     margin: 0 auto;
     padding-bottom: 15px;
-    font-family: 'italiana', serif;
+}
+
+.emailCont img{
+    width: 200px;
+    height: auto;
 }
 
 .emailCont h4{
+    font-family: 'italiana', serif;
     font-size: 18pt;
+    color: black;
 }
 
-.emailCont button{
-    background-color: rgb(177, 241, 220);
-    border-radius: 50px;
+.emailCont p{
+    font-family: 'italiana' serif;
+    color: black;
+    font-size: 15pt;
+    margin: 10px;
 }
+
