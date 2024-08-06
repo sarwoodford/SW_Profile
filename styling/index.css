@@ -17,12 +17,16 @@ body{
     flex-direction: column;
 }
 
+/* INDEX / ABOUT PAGE */
+
 .bodyCont{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+/* NAVIAGATION */
 
 nav{
     width: 100%;
@@ -59,9 +63,13 @@ nav a:visited{
     color: black;
 }
 
+/* HEADER */
+
 .headCont img{
     align-items: center;
     justify-content: center;
+    margin: 0;
+    margin-top: -75px;
 }
 
 .headCont{
@@ -71,26 +79,33 @@ nav a:visited{
     width: 100%;
     margin: 0px;
     padding: 0px;
-
+    flex-direction: column;
+    align-items: center;
 }
+
+/* ABOUT ME CONTAINER */
 
 .aboutCont{
     display: flex;
     width: 1500px;
     background-color: black;
-    height: 450px;
+    height: auto;
     margin: 0 auto;
     align-self: center;
     margin-top: 25px;
     margin-bottom: 25px; 
+    flex-direction: column;
+}
+
+.aboutContent{
+    flex-direction: row;
+    text-align: center;
 }
 
 .aboutCont img{
     width: 300px;
     height: 300px;
     align-self: center;
-    margin-left: -100px;
-
 }
 
 .aboutCont h4{
@@ -101,61 +116,119 @@ nav a:visited{
 }
 
 .aboutCont p{
-    align-self: center;
-    margin: 10px;
     color: white;
+    margin: 15px;
+    font-family: 'italiana', serif;
+    font-size: 18pt;
+    margin: 50px;
+
 }
+
+/* PROJECT CONTAINER */
 
 .projectCont{
     display: flex;
     width: 1500px;
+    flex-direction: column;
     background-color: white;
     border: 5px solid black;
-    height: 400px;
+    height: auto;
     margin: 0 auto;
     margin-top: 25px;
+    justify-content: flex-start;
+}
+
+.projectContent{
+    flex-direction: row;
+    text-align: center;
 }
 
 .projectCont img{
     width: 300px;
     height: 300px;
     align-self: center;
-    margin-left:-325px;
-    margin-top: 55px;
+    margin-top: 60px;
+    margin: 20px;
 }
 
 .projectCont h4{
-    color: black;  
     font-family: 'italiana', serif;
+    color: black;
     font-size: 36pt;
     margin: 10px;
 }
 
-.project a{
+.projectCont p{
+    color: black;
+    margin: 15px;
+    font-family: 'italiana', serif;
+    font-size: 18pt;
+    margin: 50px; 
+    margin-left: 350px;
+}
+
+.projectCont a{
+    align-self: center;
+    justify-self: center;
+    margin-top: auto;
+    font-size: 16pt;
+    font-family: 'italiana', serif;
+}
+
+#pfnl{
+    float: left;
+}
+
+#quizLink{
     float: right;
     margin: 10px;
 }
 
-.project a:link{
+.projectCont a:link{
     color: black;
     font-size: 18pt;
     font-family: 'italiana', serif;
     text-decoration: none;
 }
 
-.project a:hover{
+.projectCont a:hover{
+    color: black;
+    font-size: 18pt;
+    font-family: 'italiana', serif;
+    text-decoration: none;
+    cursor:crosshair;
+}
+
+.projectCont a:visited{
     color: black;
     font-size: 18pt;
     font-family: 'italiana', serif;
     text-decoration: none;
 }
 
-.project a:visited{
+aside a:link{
     color: black;
     font-size: 18pt;
     font-family: 'italiana', serif;
     text-decoration: none;
 }
+
+aside a:hover{
+    color: black;
+    font-size: 18pt;
+    font-family: 'italiana', serif;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+aside a:visited{
+    color: black;
+    font-size: 18pt;
+    font-family: 'italiana', serif;
+    text-decoration: none;
+}
+
+/* FOOTER */
 
 .footerCont{
     display: flex;
@@ -176,4 +249,60 @@ nav a:visited{
     margin: 0;
 }
 
+/* CONTACT PAGE */
 
+.textCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.textCont p{
+    color:white;
+    font-family: 'italiana', serif;
+    font-size: 18pt;
+    padding: 20px;
+}
+
+.contactCont{
+    width: 1500px;
+    height: 400px; 
+    background-color: white;
+    border: 5px solid black;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.contactCont img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 110px;
+}
+
+.emailCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1500px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    font-family: 'italiana', serif;
+}
+
+.emailCont h4{
+    font-size: 18pt;
+}
+
+.emailCont button{
+    background-color: rgb(177, 241, 220);
+    border-radius: 50px;
+}

@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styling/index.css">
     <title>Contact Me!</title>
 </head>
 <body>
-    
+    <div class="bodyCont">
+        <header>
+            <div class="headCont">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./index.html">about</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="../images/headerImage.png" alt="Sara Woodford" width="200px">
+            </div>
+        </header>
+
+        <section class="contactMe">
+            <div class="textCont">
+                <p>
+                    I am available and active on various social media websites. The below links will allow you to contact me if needed, view my projects or stay updated on what I'm completing at the time.
+                </p>
+            </div>
+            <div class="contactCont">
+                <a href="https://github.com/sarwoodford" target="_blank"><img src='../images/githublogo.png' alt="github logo" ></a>
+                <a href="www.linkedin.com/in/sara-woodford-96039b2a8" target="_blank"><img src='../images/linkedinlogo.png' alt='linkedin logo' ></a>
+                <a href="https://www.facebook.com/sara.woodford.35/" target="_blank"><img src='../images/facebooklogo.png' alt="facebook logo" ></a>
+                <a href="https://www.outlook.com/sara.woodford@keyin.com" target="_blank"><img src='../images/emaillogo.png' alt="email icon" ></a>
+            </div>
+        </section>
+
+        <section class="addEmail">
+            <div class="emailCont">
+                <h4>Reach Me Via Email!</h4>
+                <p>
+                    Input your email and I will reach out as soon as possible!
+                </p>
+                <form id="emailForm" method="POST" action="https://localhost:3000/submit-email">
+                    <label for="email">
+                        your email:
+                    </label>
+                    <input type="email" id="email" name="email">
+                    <button>
+                        Submit Email
+                    </button>
+                </form>
+            </div>
+        </section>
+
+
+        <aside>
+            <a href="./jsquiz.html" id="quizLink"><em>test your knowledge!</em></a>
+        </aside>
+        
+        <footer>
+            <div class="footerCont">
+                <img src="../images/footerImage.png" alt="SW logo">
+
+                <p>copyright Sara Woodford</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
