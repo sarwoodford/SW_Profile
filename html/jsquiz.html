@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styling/index.css">
     <title>Test Your Knowledge!</title>
 </head>
 <body>
-    
+    <div class="bodyCont">
+        <header>
+            <div class="headCont">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./index.html">about</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="../images/headerImage.png" alt="Sara Woodford" width="200px">
+            </div>
+        </header>
+        <section class="infobox">
+            <div class="quizText">
+                    <h4>Test Your Knowledge!</h4>
+                    <p>
+                        Let's see if you <em>really</em> read my portfolio - by taking a test!
+                    </p>
+            </div> 
+        </section>
+        <section class="quizbox">
+            <div class="quizContent">
+                <div id="quizCont"></div>
+                <div id="quiz"></div>
+            </div>
+            <div class="buttonCont">
+                    <button id="prevButton" class="hidden">previous</button>
+                    <button id="submit">submit quiz</button>
+                    <button id="nextButton" class="hidden">next</button>
+            </div>
+            <div class="resultsDisplay">
+                <div id="resultsCont"></div>
+            </div>
+               
+        </section>
+        <!-- <aside>
+            <a href="./jsquiz.html" id="quizLink"><em>test your knowledge!</em></a>
+        </aside>
+         -->
+        <footer>
+            <div class="footerCont" >
+                <img src="../images/footerImage.png" alt="SW logo">
+
+                <p>copyright Sara Woodford</p>
+            </div>
+            <div id="message"></div>
+        </footer>
+    </div>
+    <script src="../scripts/quiz.js"></script>
 </body>
 </html>

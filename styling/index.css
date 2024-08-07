@@ -316,3 +316,121 @@ aside a:visited{
     margin: 10px;
 }
 
+.quizText{
+    display: flex;
+    width: 1500px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quizText h4{
+    font-family: 'italiana', serif;
+    color: white;
+    font-size: 24pt;
+}
+
+.quizText p{
+    font-family: 'italiana', serif;
+    color: white;
+    font-size: 18pt;
+}
+
+.quizContent{
+    display: flex;
+    width:1500px;
+    height: 500px;
+    background-color: white;
+    border: 5px solid black;
+    border-bottom: 0;
+    margin: 0 auto;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.quizBox{
+    color:black;
+    text-align: center;
+}
+
+#quizCont{
+    font-size: 24pt;
+    color: black;
+    font-family: 'italiana', serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.buttonCont{
+    display: flex;
+    width: 1500px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+    margin-top: 0;
+    border: 5px solid black;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.buttonCont #prevButton{
+    align-self:flex-start;
+    height: 50px;
+    width: 100px;
+    color: black;
+    font-size: 14pt;
+    font-family: 'italiana', serif;
+}
+
+.buttonCont #nextButton{
+    align-self: flex-end;
+    height: 50px;
+    width: 100px;
+    color: black;
+    font-size: 14pt;
+    font-family: 'italiana', serif;
+}
+
+.buttonCont #submit{
+    align-self: center;
+    height: 50px;
+    width: 100px;
+    color: black;
+    font-size: 14pt;
+    font-family: 'italiana', serif;
+}
+
+.resultsDisplay{
+    display: flex;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-top:0;
+    margin-bottom: 25px;
+    font-family: 'italiana', serif;
+    font-size: 16pt;
+    color:black;
+}
+
+.resultsCont{
+    font-family: 'italiana', serif;
+    font-size: 16pt;
+    color:black;
+}
+
